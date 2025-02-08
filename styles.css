@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'VT323', monospace;
+    background-color: black;
+    color: #00ff00;
+    overflow: hidden;
+}
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.terminal {
+    text-align: center;
+    padding-top: 20vh;
+}
+
+h1 {
+    font-size: 2rem;
+    text-shadow: 0 0 10px #00ff00;
+    animation: blinkText 1s infinite alternate;
+}
+
+p {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+@keyframes blinkText {
+    from { opacity: 1; }
+    to { opacity: 0.5; }
+}
